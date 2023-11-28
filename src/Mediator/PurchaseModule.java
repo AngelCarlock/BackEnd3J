@@ -5,11 +5,13 @@ public class PurchaseModule extends AbstractModule {
     public static final String MODULE_NAME = "Chopping";
     public static final String OPERATION_PURCHASE_REQUEST = "PurchaseRequest";
 
+    // Método para obtener el nombre del módulo
     @Override
     public String getModulName() {
         return MODULE_NAME;
     }
 
+    // Método para notificar un mensaje al módulo
     @Override
     public Object notifyMessage(ModuleMessage message) {
         switch (message.getMessageType()) {
@@ -21,6 +23,7 @@ public class PurchaseModule extends AbstractModule {
         }
     }
 
+    // Método para procesar una solicitud de compra
     private Void purchaseRequest(ModuleMessage message){
         return null;
     }

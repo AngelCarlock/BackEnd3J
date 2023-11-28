@@ -55,15 +55,15 @@
         </constraints>
         <properties/>
       </component>
-      <component id="ff0d5" class="javax.swing.JButton" binding="cancelarButton" default-binding="true">
+      <component id="ff0d5" class="javax.swing.JButton" binding="next">
         <constraints>
           <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Cancelar"/>
+          <text value="Siguiente"/>
         </properties>
       </component>
-      <component id="904c5" class="javax.swing.JButton" binding="actualizarButton" default-binding="true">
+      <component id="904c5" class="javax.swing.JButton" binding="save">
         <constraints>
           <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -97,6 +97,14 @@
           </component>
         </children>
       </grid>
+      <component id="48f36" class="javax.swing.JButton" binding="previous">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="anterior"/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>

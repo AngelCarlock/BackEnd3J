@@ -6,6 +6,8 @@ public class ModuleMessage {
     private String messageType;
     private Object payload;
 
+
+    // Constructor de la clase ModuleMessage
     public ModuleMessage(String source, String target, String messageType,
                          Object payload) {
         this.source = source;
@@ -14,6 +16,7 @@ public class ModuleMessage {
         this.payload = payload;
     }
 
+    // Métodos getter y setter para la variable source
     public String getSource() {
         return source;
     }
